@@ -186,3 +186,17 @@ ul.main-menu li a.active {
 .show {
   display: block;
 }
+
+/* Set a reasonable size for the SVG logo in the header */
+#header img {
+  width: 128px;
+  /* Adjust width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+  max-width: 100%;
+  /* Make it responsive */
+  display: block;
+  /* Center the image */
+  margin: 0 auto;
+  /* Center the image horizontally */
+}

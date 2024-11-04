@@ -200,3 +200,12 @@ ul.main-menu li a.active {
   margin: 0 auto;
   /* Center the image horizontally */
 }
+
+.icon {
+  height: 1em;
+  /* Matches the text height */
+  vertical-align: middle;
+  /* Aligns the icon with the text */
+  margin-right: 5px;
+  /* Optional: adds some space between icon and text */
+}

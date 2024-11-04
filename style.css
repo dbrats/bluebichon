@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 /**
@@ -22,7 +22,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none;
-  color: #EF6D3D;
+  color: #004DFF;
 }
 
 a:focus {
@@ -113,10 +113,10 @@ q:after {
 
 blockquote {
   /*background-color: #F8F8F8;*/
-  border-left: 2px solid #AFC0D2;
-  margin: 1.6em 10%;
+  border-left: 2px solid #004DFF;
+  margin: 1.6em 5%;
   padding: .75em 1em;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 blockquote p:last-child {
@@ -147,9 +147,9 @@ body {
 header,
 #content,
 footer {
-  background: rgba(0, 0, 0, .8);
+  background: #FFFFFF;
   padding: 25px;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 /* Menu Links */
@@ -166,16 +166,16 @@ ul.main-menu li a {
   margin-right: 20px;
   font-size: 2.0rem;
   border-bottom: solid transparent 3px;
-  color: #cfd2da;
+  color: #707070;
 }
 
 ul.main-menu li a:hover {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 ul.main-menu li a.active {
-  color: #FFFFFF;
-  border-bottom-color: #EF6D3D;
+  color: #000000;
+  border-bottom-color: #004DFF;
 }
 
 /* Utility classes */

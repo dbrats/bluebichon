@@ -187,16 +187,6 @@ ul.main-menu li a.active {
   display: block;
 }
 
-.cover-image {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  max-width: 960px; /* or 800px, depending on your layout */
-  display: block;
-  margin: 0 auto;
-}
-
-
 /* Set a reasonable size for the SVG logo in the header */
 #header img {
   width: 512;

@@ -48,9 +48,9 @@
       <div id="content">
         <div id="games" class="content-region hide">
           <h2>Games</h2>
-          <img src="ashen_daughter_cover.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-          <h3>Ashen Daughter</h3>
-          <p>
+          <img src="ashen_daughter_cover.png" class="fade-in" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+          <h3 class="fade-in">Ashen Daughter</h3>
+          <p class="fade-in">
             Ashen Daughter is our upcoming debut title: a hand-drawn 2D Metroidvania adventure set in a mythic world inspired by Norse legends.
             <br><br>
             Players take on the role of Kára, a determined young woman brought back to life by the Last Whisper, a mysterious divine being, as she seeks justice 
@@ -104,3 +104,11 @@
 </html>
 
 <!-- Thanks to zirafa for making the template for this simple website: https://github.com/zirafa/simple-website-template-->
+
+<script>
+  window.addEventListener('load', function() {
+    document.querySelectorAll('.fade-in').forEach(function(el) {
+      el.classList.add('show');
+    });
+  });
+</script>

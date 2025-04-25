@@ -187,6 +187,17 @@ ul.main-menu li a.active {
   display: block;
 }
 
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Set a reasonable size for the SVG logo in the header */
 #header img {
   width: 512;

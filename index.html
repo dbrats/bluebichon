@@ -99,16 +99,16 @@
   <!-- Load additional JS scripts here -->
   <script type="text/javascript" src="script.js"></script>
 
+  <script>
+    window.addEventListener('load', function() {
+      document.querySelectorAll('.fade-in').forEach(function(el) {
+        el.classList.add('show');
+      });
+    });
+  </script>
+
 </body>
 
 </html>
 
 <!-- Thanks to zirafa for making the template for this simple website: https://github.com/zirafa/simple-website-template-->
-
-<script>
-  window.addEventListener('load', function() {
-    document.querySelectorAll('.fade-in').forEach(function(el) {
-      el.classList.add('show');
-    });
-  });
-</script>
